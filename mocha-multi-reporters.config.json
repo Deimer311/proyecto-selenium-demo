@@ -1,0 +1,11 @@
+{
+  "reporterEnabled": "spec, mochawesome",
+  "mochawesomeReporterOptions": {
+    "reportDir": "mochawesome-report",
+    "reportFilename": "reporte-pruebas",
+    "reportTitle": "Reporte de Pruebas - FoamWash Demo",
+    "reportPageTitle": "Reporte de Pruebas Selenium",
+    "quiet": true,
+    "overwrite": true
+  }
+}
