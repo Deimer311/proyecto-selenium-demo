@@ -94,19 +94,8 @@ describe('Inicio de sesión', function () {
     expect(urlActual).to.not.include('dashboard');
   });
 
-// ===== BLOQUE 2: Casos para agregar/codificar en vivo en clase =====
 
-  it('el campo de contraseña debería ocultar el texto (type="password")', async () => {
-    const tipo = await loginPage.obtenerTipoCampoClave();
-    expect(tipo).to.equal('password');
-  });
-
-  it('el mensaje de error no debería ser visible al cargar la página', async () => {
-    const visible = await loginPage.elMensajeDeErrorEsVisible();
-    expect(visible).to.be.false;
-  });
-
-
+  
 
   // ===== BLOQUE 3: Cierre y navegación final =====
 
